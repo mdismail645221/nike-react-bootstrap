@@ -71,6 +71,6 @@ section#headerBottom,
     font-weight: 800;
     font-size: 2rem;
 }
-.casual-shoes-area{
+.casual-shoes-area, .formal-shoes-area{
    margin: 3rem 0;
 }
