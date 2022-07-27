@@ -5,44 +5,72 @@
 
 /* font-family: 'Roboto', sans-serif; */
 /* font-family: 'Bebas Neue', cursive; */
-*{
+* {
     padding: 0;
-    margin:0;
+    margin: 0;
     box-sizing: border-box;
 }
-a{
+
+a {
     text-decoration: none;
     display: inline-block;
     color: #000;
 }
-li{
+
+li {
     list-style: none;
 }
-body{
+
+body {
     font-family: 'Roboto', sans-serif;
     background-color: #fff;
     color: #000;
 }
 
-:root{
-    --bs-OrangC:#FA804C;
-    --bs-BtnC:#3D4FF3;
-    --bs-SpopingC:#363958;
+:root {
+    --bs-OrangC: #FA804C;
+    --bs-BtnC: #3D4FF3;
+    --bs-SpopingC: #363958;
+    --bs-hOneC:#363958;
 }
 
 /* main css */
 
 /* header section styles */
-#header, .navbar{
+#header,
+.navbar {
     background-color: #FFF9F4;
 }
+
 img.narber-brand.w-10 {
     width: 90px;
 }
-section#headerBottom, #header-top {
+
+section#headerBottom,
+#header-top {
     margin-top: 76px;
 }
-.title-box img{
+
+.title-box img {
     min-width: 100%;
     max-height: 500px;
+}
+
+/* CASUAL SHOES AREA */
+.card-img {
+    background: #7768682e;
+}
+.shoes-title, h3{
+    color: var(--bs-hOneC);
+}
+.shoes-title{
+    padding: 2rem 0 1.5rem 0;
+}
+.dolar{
+    color: var(--bs-OrangC);
+    font-weight: 800;
+    font-size: 2rem;
+}
+.casual-shoes-area{
+   margin: 3rem 0;
 }
